@@ -5,8 +5,13 @@ export const HeaderContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 `;
 
 export const HeaderTitle = styled.h1`
-  font-size: 40px;
+  font-size: 50px;
+`;
+
+export const Score = styled.h3`
+  font-size: 30px;
 `;
