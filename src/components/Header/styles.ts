@@ -16,23 +16,29 @@ export const HeaderContainer = styled.div`
   }
 `;
 
+export const TitleWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+`;
+
 export const HeaderTitle = styled.h1`
   font-size: 50px;
 
-  @media (max-width: 440px) {
+  @media (max-width: 480px) {
     font-size: 30px;
   }
 
   @media (max-width: 260px) {
     font-size: 20px;
   }
-
 `;
 
 export const Score = styled.h3`
   font-size: 30px;
 
-  @media (max-width: 440px) {
+  @media (max-width: 480px) {
     font-size: 15px;
   }
 `;
@@ -46,9 +52,9 @@ export const StartButton = styled.button`
   border: none;
   border-radius: 20px;
   margin-top: 10px;
-  transition: .4s;
+  transition: 0.4s;
 
-  @media (max-width: 440px) {
+  @media (max-width: 480px) {
     font-size: 15px;
   }
 
